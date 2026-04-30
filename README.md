@@ -1,2 +1,2 @@
-# cakepopstudioweb
-the website for cake pop studio
+# TheGlazePopStudioWeb
+the website for the glaze pop studio
