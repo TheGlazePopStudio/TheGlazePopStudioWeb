@@ -1,0 +1,135 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "FoodEstablishment",
+      "name": "The Glaze-Pop Studio",
+      "description": "Homemade cake pops crafted for special occasions including gender reveals, baby showers, birthday parties, and wedding showers.",
+      "founder": {
+        "@type": "Person",
+        "name": "Shelby Sheppard"
+      },
+      "email": "glazepopstudio@gmail.com",
+      "paymentAccepted": ["Cash", "CashApp", "Venmo"],
+      "knowsAbout": [
+        "Cake Pops",
+        "Gender Reveal Desserts",
+        "Baby Shower Treats",
+        "Birthday Party Desserts",
+        "Wedding Shower Desserts"
+      ],
+      "ethicsPolicy": "We bake for your family the same way we bake for ours: with care, honesty, and a commitment to making life a little bit sweeter.",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Amherst, Nelson County, Charlottesville, Waynesboro, Harrisonburg, and surrounding Central Virginia towns"
+      }
+    },
+
+    {
+      "@type": "Product",
+      "name": "Custom Cake Pops",
+      "brand": {
+        "@type": "Brand",
+        "name": "The Glaze-Pop Studio"
+      },
+      "category": "Desserts",
+      "description": "Custom homemade cake pops available in a variety of colors and flavors, designed to match your event theme. Perfect for gender reveals, baby showers, birthday parties, and wedding celebrations.",
+      "keywords": [
+        "cake pops",
+        "gender reveals",
+        "baby showers",
+        "wedding showers",
+        "birthday parties"
+      ],
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedMinAge": 0,
+        "suggestedMaxAge": 100,
+        "audienceType": "Event planners, families, and individuals celebrating special occasions"
+      }
+    },
+
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Product",
+        "name": "Custom Cake Pops"
+      },
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "USD",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Amherst",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Charlottesville",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Waynesboro",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Harrisonburg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Nelson County",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "VA",
+            "addressCountry": "US"
+          }
+        }
+      ],
+      "availableDeliveryMethod": {
+        "@type": "DeliveryMethod",
+        "@id": "https://schema.org/OnSitePickup",
+        "name": "Local Meet-Up",
+        "description": "Orders are delivered via scheduled meet-ups in mutually agreed public locations throughout Amherst, Nelson County, Charlottesville, Waynesboro, Harrisonburg, and surrounding Central Virginia towns."
+      },
+      "paymentAccepted": ["Cash", "CashApp", "Venmo"],
+      "priceSpecification": {
+        "@type": "PaymentChargeSpecification",
+        "name": "Security Deposit",
+        "description": "A deposit is required to secure your order date. The amount depends on order size and any display rentals.",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    },
+
+    {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "name": "Shelby Sheppard",
+      "email": "glazepopstudio@gmail.com",
+      "availableLanguage": "English"
+    }
+
+  ]
+}
+</script>
