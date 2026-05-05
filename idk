@@ -1,0 +1,90 @@
+Product Section
+
+Audience 		Those looking for cake pops to celebrate 
+occasions. Baby gender reveals, birthday parties. 
+
+Category		cake pops
+
+Keywords		cake pops, gender reveals, baby showers, wedding 
+showers, birthday parties
+
+
+Description		Homemade cake pops to celebrate special occasions. 
+Cake pops will be of all different colors and cake flavors that are 
+determined by the customer ordering. 
+
+Name 			The Glaze-Pop Studio
+Owner 			Shelby Sheppard
+
+
+
+				Organization 
+
+
+Accepted payment method		Cashapp, Venmo, Cash
+Contact Point				Shelby Sheppard
+Email					glazepopstudio@gmail.com
+Ethics Policy				"We bake for your family the same 
+way we bake for ours: with care, honesty, and a commitment to making life 
+a little bit sweeter."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deposits and Local meeting-ups
+
+
+
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Custom Cake Pops",
+  "description": "Handcrafted cake pops for any occasion. Serving multiple 
+areas with local meeting-point delivery.",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Town A"
+      },
+      {
+        "@type": "City",
+        "name": "Town B"
+      }
+    ],
+    "availableDeliveryMethod": {
+      "@type": "DeliveryMethod",
+      "@id": "https://schema.org/OnSitePickup",
+      "name": "Local Meet-Up",
+      "description": "Delivery is completed via a scheduled meeting in a 
+mutually agreed-upon public location within our service towns."
+    },
+    "priceSpecification": [
+      {
+        "@type": "PaymentChargeSpecification",
+        "name": "Security Deposit",
+        "description": "A security deposit is required to secure your 
+date; the amount is calculated based on total order volume and display 
+rentals.",
+        "price": "0.00", 
+        "priceCurrency": "USD"
+      }
+    ]
+  }
+}
+
