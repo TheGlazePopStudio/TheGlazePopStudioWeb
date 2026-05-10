@@ -1,26 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Agbalumo&family=Fredoka&family=Chiron+GoRound+TC&family=Sansita&family=Coming+Soon&family=Cause:wght@100..900&display=swap');
+
+html {
+background: #ffffff;
+margin: 0px 0vw;
+}
+
+* {
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+word-break: normal;
+font-family: "Fredoka", sans-serif;
+border: none;
+font-size: 0.9rem;
+text-shadow: -1px 2px 5px rgba(0,0,0,0.2);
+}
+
 body {
-background-color: #585b70;
-margin: 0px;
+background: #ffffff;
+margin: 30px 0px 0px 0px;
+display:flex;
+flex-direction: column;
+align-items: stretch;
+width: 100vw;
+overflow-x: hidden;
 }
 
 header {
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 border-bottom: 0px solid #000000;
-}
-
-.the_header_img {
-width: 61vw;
-padding: 3vh 5vh 3vh 5vh;
-}
-
-CakePop-img {
-margin: 0px;
-min-width: 100vw;
-position: relative;
-left: 0px;
-right: 0px;
 }
 
 main {
@@ -28,65 +39,214 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-gap: 2vh;
+gap: 0vh;
 margin: 0px;
-padding-bottom: 0px;
-background-color:  #FAE6C5;
-backdrop-filter: blur(10px);
-}
-
-.CakePopDiv {
-width: 100vw;
-height: 50vh;
-background-color: #ffffff;
-border-radius: 0px;
-box-shadow: 0px 3px 5px rgba(0,0,0,0.05);
-border: 10px 0px 0px 0px solid #7E503D;
-position: relative;
-}
-
-.CakePopDivTextHeader {
-margin: 10px 10px 10px 10px;
-font-size: 1.2em;
-position: relative;
-color: #000000;
-}
-
-.CakePopDivTextMain {
-margin: 10px 10px 0px 10px;
-font-size: 1.3em;
-position: relative;
-color:#000000;
+padding: 0px;
 }
 
 footer {
+background-color: #ffffff;
 display: flex;
 justify-content: center;
-background-color: #7E503D;
-margin:0px;
-color:  #FAE6C5;
+margin: 5px 0px;
+color: #000000;
 }
 
-.CakePics {
+.scroll_div {
+overflow: hidden;
 width: 100vw;
-height: 100%;
-object-fit: cover;
+background: #000000;
+padding: 1vh 0;
 position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
+top: 0px;
+left:0px;
+Z-index: 10000000000000;
+}
+
+.scroll_track {
+display: flex;
+width: max-content;
+animation: scroll 20s linear infinite;
+}
+
+.scroll_text {
+display: flex;
+white-space: nowrap;
+}
+
+.discount_span {
+font-family: "Cause", cursive;
+margin-left: 10vw;
+font-size: 1rem;
+font-weight: 400;
+background-color: #000000;
+color: #ffffff;
+padding: 0px;
+border-radius: 1000px;
 }
 
 
-.cakePopTextBlurDiv {
-background-color: rgba(255,255,255,0.3);
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.iframe_container {
+width: 100vw;
+height: 100vh;
+max-height: 100vh;
+margin: 0vh 0px 0vh 0px;
+background-color: #000000;
+border-top: 0px solid #000000;
+border-bottom: 1px solid #000000;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+position: relative;
+}
+
+.iframe_container iframe {
+width: 177.78vh;
+height: 56.25vw;
+min-width: 100%;
+min-height: 100%;
+border: 0;
+pointer-events:all;
+margin: 0px;
 position: absolute;
-backdrop-filter: blur(10px);
-z-index: 2;
-border: 1px solid rgba(255,255,255,0.3);
-bottom: 0;
-left: 0;
-margin: 20px;
-box-shadow: -1px 1px 3px rgba(0,0,0,0.1);
-border-radius: 100px;
+top: 50%;
+left: 50%;
+z-index: 10000000;
+transform:translate(-50%, -50%);
+}
+
+.product_container {
+width: 100%;
+background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cake_layer_a { 
+margin-top: 5vh;
+aspect-ratio: 3/2;
+display: flex;
+width: 100vw;
+flex-direction: row;
+background-color: #ffffff;
+padding-right: 1vw;
+gap: 5vw;
+scale: 1;
+}
+
+.cake_layer_b { 
+margin: 0px;
+aspect-ratio: 3/2;
+display: flex;
+width: 100vw;
+flex-direction: row-reverse;
+background-color: #ffffff;
+padding-right: 1vw;
+gap: 5vw;
+scale: 1;
+}
+
+.cake_layer_c { 
+margin: 0px;
+aspect-ratio: 3/2;
+display: flex;
+width: 100vw;
+flex-direction: row;
+background-color: #ffffff;
+padding-right: 1vw;
+gap: 5vw;
+scale: 1;
+}
+
+.cake_layer_d { 
+margin: 0px;
+aspect-ratio: 3/2;
+display: flex;
+width: 100vw;
+flex-direction: row-reverse;
+background-color: #ffffff;
+padding-right: 1vw;
+gap: 5vw;
+scale: 1;
+}
+
+h1 {
+font-family: "Fredoka", sans-serif;
+}
+
+.product_title {
+ font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(2rem, 7vw, 6rem);
+margin: -2vh 0px;
+}
+
+.product_text_container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background-color: rgba(0,0,0,0);
+aspect-ratio: 2/3;
+}
+
+.product_img_a {
+margin-left: -20vw;
+transform: scaleX(-1);
+scale: 1;
+z-index: -10000000000;
+}
+
+.product_img_b {
+margin-right: -20vw;
+transform: scaleX(1);
+scale: 1;
+}
+
+.product_img_c {
+margin-left: -20vw;
+transform: scaleX(-1);
+scale: 1;
+}
+
+.product_img_d {
+margin-right: -20vw;
+transform: scaleX(1);
+scale: 1;
+}
+
+.product_description {
+font-size: clamp(1rem, 3vw, 2rem);
+text-wrap: balance;
+  hyphens: auto;
+}
+
+button {
+border-radius: 10000px;
+padding: 10px 30px;
+color: #ffffff;
+background-color: #000000;
+margin: 1vh 0px;
+font-size: clamp(1rem, 2vw, 3rem);
+transition: all 0.5s ease-in-out;
+box-shadow: -1px 2px 5px rgba(0,0,0,0.2);
+}
+
+button:hover {
+transform: translateY(-10%);
+background-color: #ecc5d0;
+color: #000000;
+box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+cursor: pointer;
 }
